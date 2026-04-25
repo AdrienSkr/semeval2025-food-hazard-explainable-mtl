@@ -1,4 +1,4 @@
-# SemEval 2025 Task 9 — Détection Expliquable de Risques Sanitaires
+# SemEval 2025 Task 9 - Détection Expliquable de Risques Sanitaires
 
 [![Université de Sherbrooke](https://img.shields.io/badge/UdeS-IFT714-blue)](https://www.usherbrooke.ca)
 [![NLP](https://img.shields.io/badge/NLP-Multi--task%20Learning-green)]()
