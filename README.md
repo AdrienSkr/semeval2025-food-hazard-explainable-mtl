@@ -5,11 +5,25 @@
 [![RoBERTa](https://img.shields.io/badge/Model-RoBERTa--large-orange)]()
 [![Statut](https://img.shields.io/badge/Statut-Archivé%20%E2%80%94%20démo%20uniquement-lightgrey)]()
 
-> Projet académique réalisé dans le cadre du cours **IFT714 — Traitement automatique des langues naturelles**  
-> Université de Sherbrooke, Hiver 2026  
+Ce projet a été réalisé dans le cadre du cours **IFT714 - Traitement automatique des langues naturelles** à l'**Université de Sherbrooke**, session Hiver 2026, sous la forme d'un **projet de recherche expérimentale**.
 > Équipe : A. Skrzypczak, R. Bécard, S. Maurel, K. Jemmali
 
-📂 **Dépôt technique (code)** → [IFT714-semeval-2025-task-9](https://github.com/AdrienSkr/IFT714-semeval-2025-task-9)
+Le projet suit le format d'un article de conférence ACL (4 pages) et comprend 4 livrables :
+- 📄 Proposition de projet
+- 📊 Rapport d'avancement
+- 🎤 Présentation orale en classe
+- 📝 Rapport final
+
+L'objectif pédagogique est de mener une **enquête expérimentale rigoureuse** sur un problème NLP réel :
+identifier une tâche, explorer la littérature (ACL, EMNLP, SemEval…), soulever les limites actuelles, proposer une solution inovante,
+expérimenter empiriquement et analyser les résultats de manière critique.
+
+Nous avons choisi le challenge **[SemEval 2025 Task 9 - Food Hazard Detection](https://food-hazard-detection-semeval-2025.github.io/)**
+comme terrain d'application, en y apportant une contribution originale autour de l'**explicabilité extractive**.
+
+> 📂 **Rapport final (format ACL)** → [Groupe_05_Rapport_Final](https://files.adrien-skr.dev/files/pdf_projets/Groupe_05-Rapport_Final.pdf)
+
+> 📂 **Dépôt technique (code)** → [IFT714-semeval-2025-task-9](https://github.com/AdrienSkr/IFT714-semeval-2025-task-9)
 
 ---
 
@@ -18,7 +32,7 @@
 La contamination alimentaire cause environ **420 000 décès par an** dans le monde.  
 Automatiser la détection des dangers dans les rapports de rappels de produits permettrait aux agences sanitaires de réagir plus rapidement — mais encore faut-il que le modèle soit **explicable**, pour que les experts puissent valider les alertes instantanément.
 
-Ce projet s'inscrit dans le challenge **[SemEval 2025 Task 9 — Food Hazard Detection](https://food-hazard-detection-semeval-2025.github.io/)**, qui propose de classer les dangers et produits à partir de 6 644 rapports d'incidents annotés.
+Ce projet s'inscrit dans le challenge **[SemEval 2025 Task 9 - Food Hazard Detection](https://food-hazard-detection-semeval-2025.github.io/)**, qui propose de classer les dangers et produits à partir de 6 644 rapports d'incidents annotés.
 
 ---
 
