@@ -21,7 +21,7 @@ expérimenter empiriquement et analyser les résultats de manière critique.
 Nous avons choisi le challenge **[SemEval 2025 Task 9 - Food Hazard Detection](https://food-hazard-detection-semeval-2025.github.io/)**
 comme terrain d'application, en y apportant une contribution originale autour de l'**explicabilité extractive**.
 
-> 📂 **Rapport final (format ACL)** → [Groupe_05_Rapport_Final](https://files.adrien-skr.dev/files/pdf_projets/Groupe_05-Rapport_Final.pdf)
+> 📂 **Rapport final (format ACL)** → [Groupe_05_Rapport_Final](https://files.adrien-skr.dev/api/public/dl/cy1hF0G4?inline=true)
 
 > 📂 **Dépôt technique (code)** → [IFT714-semeval-2025-task-9](https://github.com/AdrienSkr/IFT714-semeval-2025-task-9)
 
