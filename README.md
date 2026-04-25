@@ -30,7 +30,7 @@ comme terrain d'application, en y apportant une contribution originale autour de
 ## Contexte
 
 La contamination alimentaire cause environ **420 000 décès par an** dans le monde.  
-Automatiser la détection des dangers dans les rapports de rappels de produits permettrait aux agences sanitaires de réagir plus rapidement — mais encore faut-il que le modèle soit **explicable**, pour que les experts puissent valider les alertes instantanément.
+Automatiser la détection des dangers dans les rapports de rappels de produits permettrait aux agences sanitaires de réagir plus rapidement - mais encore faut-il que le modèle soit **explicable**, pour que les experts puissent valider les alertes instantanément.
 
 Ce projet s'inscrit dans le challenge **[SemEval 2025 Task 9 - Food Hazard Detection](https://food-hazard-detection-semeval-2025.github.io/)**, qui propose de classer les dangers et produits à partir de 6 644 rapports d'incidents annotés.
 
@@ -71,15 +71,15 @@ RoBERTa-large (encodeur partagé)
 | Métrique | Baseline (BERT) | Modèle final |
 |---|---|---|
 | F1 Macro ST1 (Hazard) | 0.7087 | **0.7937** |
-| ST1+BIO Combined | — | **0.7606** |
-| Bio Hazard Dice | — | 0.6972 |
-| Bio Product Dice | — | 0.7577 |
-| Suffisance (explicabilité) | — | 66.90% |
-| Complétude (explicabilité) | — | 57.12% |
+| ST1+BIO Combined | - | **0.7606** |
+| Bio Hazard Dice | - | 0.6972 |
+| Bio Product Dice | - | 0.7577 |
+| Suffisance (explicabilité) | - | 66.90% |
+| Complétude (explicabilité) | - | 57.12% |
 
 Notre modèle surpasse significativement la baseline tout en fournissant une justification extractive robuste. L'analyse d'explicabilité révèle que le modèle extrait en moyenne **17.89% du texte** pour justifier sa prédiction.
 
-**Limite principale :** Le modèle exploite encore la redondance contextuelle des documents plutôt que de s'appuyer exclusivement sur les segments extraits — le fossé de fidélité persiste partiellement (36.65% d'échantillons fidèles).
+**Limite principale :** Le modèle exploite encore la redondance contextuelle des documents plutôt que de s'appuyer exclusivement sur les segments extraits - le fossé de fidélité persiste partiellement (36.65% d'échantillons fidèles).
 
 ---
 
@@ -108,14 +108,14 @@ Ce projet a été réalisé en équipe de 4. Mes contributions principales (**A.
 
 ## Références clés
 
-- [SemEval 2025 Task 9](https://food-hazard-detection-semeval-2025.github.io/) — Randl et al., 2025
-- Kendall et al. (2018) — *Multi-task learning using uncertainty to weigh losses*
-- DeYoung et al. (2020) — *ERASER: A benchmark to evaluate rationalized NLP models*
+- [SemEval 2025 Task 9](https://food-hazard-detection-semeval-2025.github.io/) - Randl et al., 2025
+- Kendall et al. (2018) - *Multi-task learning using uncertainty to weigh losses*
+- DeYoung et al. (2020) - *ERASER: A benchmark to evaluate rationalized NLP models*
 
 ---
 
 ## Contact
 
-**Adrien Skrzypczak** — [LinkedIn](https://www.linkedin.com/in/adrienskrzypczak/) · [GitHub](https://github.com/AdrienSkr)
+**Adrien Skrzypczak** - [LinkedIn](https://www.linkedin.com/in/adrienskrzypczak/) · [GitHub](https://github.com/AdrienSkr)
 
-> 📌 *Projet archivé — réalisé à des fins académiques, aucune nouvelle fonctionnalité prévue.*
+> 📌 *Projet archivé - réalisé à des fins académiques, aucune nouvelle fonctionnalité prévue.*
